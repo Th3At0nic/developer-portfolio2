@@ -1,0 +1,44 @@
+/* shared styles */
+.text-primary{
+  color: orange;
+}
+.btn-primary{
+ background: orange;
+ border-radius: 5px;
+ border: 0;
+ color: white;
+ font-size: 20px;
+ font-weight: 700;
+ padding: 15px 35px;
+}
+
+
+
+/* nav related css */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-title{
+  color: black;
+  font-size: 45px;
+  font-weight: 800px;
+}
