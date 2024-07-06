@@ -140,6 +140,7 @@ main {
 .resume-container {
   display: flex;
   justify-content: space-around;
+  gap: 50px;
 }
 
 /* this is resume items */
@@ -157,9 +158,6 @@ main {
   padding-right: 50px;
 }
 
-.resume-column {
-  margin: 10px 15px;
-}
 
 /* footer styles */
 .footer-container {
@@ -185,4 +183,8 @@ main {
   margin: 20px 0;
   width: 480px;
   border: 0;
+}
+.btn-downloadCV{
+  text-align: center;
+  margin-top: 30px;
 }
